@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #e0e7ff;
+    overflow: hidden;
+    
+}
+
+.marquee {
+    display: flex;
+    flex-direction:row;
+    gap: 30px;
+    height: 85px;
+}
+
+.marquee-text {
+    font-size: 30px;
+    color: #536DFE;
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+}
+
+
+
